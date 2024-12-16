@@ -3,7 +3,7 @@ import { Project_item } from "./Project_item";
 
 export function About_me() {
   return (
-    <div className=" p-8 flex items-center mb-4 flex-col w-full">
+    <div className=" p-8 flex items-center flex-col w-full">
       <div className="header w-full">
         <p className="text-xl font-['Raleway'] text-center w-full">SOBRE MI</p>
         <p className="w-full text-center font-['Raleway'] text-sm leading-6">
