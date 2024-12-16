@@ -1,0 +1,67 @@
+{
+  "tecnologias": [
+    {
+      "nombre": "React.js",
+      "nivel": "Intermedio",
+      "src_imagen": "public/images/reactjs.png"
+    },
+    {
+      "nombre": "Javascript",
+      "nivel": "Intermedio",
+      "src_imagen": "public/images/javascript.png"
+    },
+    {
+      "nombre": "Tailwind",
+      "nivel": "Intermedio",
+      "src_imagen": "public/images/tailwind.png"
+    },
+    {
+      "nombre": "Git",
+      "nivel": "Básico",
+      "src_imagen": "public/images/git.png"
+    },
+    {
+      "nombre": "CSS",
+      "nivel": "Intermedio",
+      "src_imagen": "public/images/css.png"
+    },
+    {
+      "nombre": "SQL",
+      "nivel": "Básico",
+      "src_imagen": "public/images/sql.png"
+    },
+    {
+      "nombre": "Python",
+      "nivel": "Básico",
+      "src_imagen": "public/images/python.png"
+    },
+    {
+      "nombre": "Supabase",
+      "nivel": "Básico",
+      "src_imagen": "public/images/supabase.png"
+    }
+  ],
+  "habilidades": [
+    {
+      "nombre": "Buena Comunicación"
+    },
+    {
+      "nombre": "Resolución de problemas"
+    },
+    {
+      "nombre": "Inglés - Intermedio"
+    },
+    {
+      "nombre": "Trabajo en equipo"
+    },
+    {
+      "nombre": "Adaptabilidad"
+    },
+    {
+      "nombre": "Creatividad"
+    },
+    {
+      "nombre": "Pensamiento crítico"
+    }
+  ]
+}

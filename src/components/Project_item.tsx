@@ -24,7 +24,9 @@ export function Project_item(props: Props) {
           </div>
         ))}
       </div>
-      <p className="text-sm text-[#1A1003]">{props.description}</p>
+      <p className="text-sm text-[#1A1003] text-left w-full">
+        {props.description}
+      </p>
     </div>
   );
 }
