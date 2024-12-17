@@ -1,11 +1,15 @@
+import { Copy_clipboard_button } from "./Copy_clipboard_button";
+
 interface Props {
   open: boolean;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  send_action_to_parent: () => void;
 }
 
 export function Mobile_nav_bar(props: Props) {
-  const handle_on_click = () => {
+  const handle_on_click = (element_clicked: string) => {
     props.setOpen(false);
+    props.send_action_to_parent(element_clicked);
   };
 
   return (
@@ -22,7 +26,7 @@ export function Mobile_nav_bar(props: Props) {
       >
         <span
           className="text-3xl font-bold absolute top-2 left-2 cursor-pointer"
-          onClick={handle_on_click}
+          onClick={() => handle_on_click("close")}
         >
           <img src="/public/images/hamburger-menu-grey.png" alt="" />
         </span>
@@ -35,28 +39,19 @@ export function Mobile_nav_bar(props: Props) {
             </p>
             <p className="text-sm font-semibold flex items-center gap-2">
               jaime23koochoy@gmail.com
-              <span>
-                <img
-                  className="cursor-pointer h-[12px] font-semibold"
-                  src="/public/images/copy-icon.svg"
-                  alt=""
-                />
-              </span>
+              <Copy_clipboard_button value="jaime23koochoy@gmail.com" />
             </p>
             <p className="text-sm font-semibold flex items-center gap-2">
               989301999
-              <span>
-                <img
-                  className="cursor-pointer h-[12px] font-semibold"
-                  src="/public/images/copy-icon.svg"
-                  alt=""
-                />
-              </span>
+              <Copy_clipboard_button value="98301999" />
             </p>
           </div>
         </div>
 
-        <div className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100">
+        <div
+          className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100"
+          onClick={() => handle_on_click("about_me")}
+        >
           <div className="svg_container w-5 flex justify-center items-center">
             <svg
               width="24"
@@ -74,7 +69,10 @@ export function Mobile_nav_bar(props: Props) {
           <p className="font-medium">About me</p>
         </div>
 
-        <div className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100">
+        <div
+          className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100"
+          onClick={() => handle_on_click("skills")}
+        >
           <div className="svg_container w-5 flex justify-center items-center">
             <svg
               width="16"
@@ -94,7 +92,10 @@ export function Mobile_nav_bar(props: Props) {
           <p className="font-medium">Skills</p>
         </div>
 
-        <div className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100">
+        <div
+          className="item_container flex justify-start items-start w-full border-b px-10 py-4 gap-3 cursor-pointer transition-colors hover:bg-slate-100"
+          onClick={() => handle_on_click("contact")}
+        >
           <div className="svg_container w-5 flex justify-center items-center">
             <svg
               width="21"

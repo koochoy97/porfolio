@@ -1,41 +1,49 @@
 {
   "tecnologias": [
     {
+      "id": 1,
       "nombre": "React.js",
       "nivel": "Intermedio",
       "src_imagen": "public/images/reactjs.png"
     },
     {
+      "id": 2,
       "nombre": "Javascript",
       "nivel": "Intermedio",
       "src_imagen": "public/images/javascript.png"
     },
     {
+      "id": 3,
       "nombre": "Tailwind",
       "nivel": "Intermedio",
       "src_imagen": "public/images/tailwind.png"
     },
     {
+      "id": 4,
       "nombre": "Git",
       "nivel": "Básico",
       "src_imagen": "public/images/git.png"
     },
     {
+      "id": 5,
       "nombre": "CSS",
       "nivel": "Intermedio",
       "src_imagen": "public/images/css.png"
     },
     {
+      "id": 6,
       "nombre": "SQL",
       "nivel": "Básico",
       "src_imagen": "public/images/sql.png"
     },
     {
+      "id": 7,
       "nombre": "Python",
       "nivel": "Básico",
       "src_imagen": "public/images/python.png"
     },
     {
+      "id": 8,
       "nombre": "Supabase",
       "nivel": "Básico",
       "src_imagen": "public/images/supabase.png"
@@ -43,24 +51,31 @@
   ],
   "habilidades": [
     {
+      "id": 1,
       "nombre": "Buena Comunicación"
     },
     {
+      "id": 2,
       "nombre": "Resolución de problemas"
     },
     {
+      "id": 3,
       "nombre": "Inglés - Intermedio"
     },
     {
+      "id": 4,
       "nombre": "Trabajo en equipo"
     },
     {
+      "id": 5,
       "nombre": "Adaptabilidad"
     },
     {
+      "id": 6,
       "nombre": "Creatividad"
     },
     {
+      "id": 7,
       "nombre": "Pensamiento crítico"
     }
   ]

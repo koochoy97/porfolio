@@ -1,4 +1,5 @@
 import { Contact_form } from "./Contact_form";
+import { Copy_clipboard_button } from "./Copy_clipboard_button";
 
 export function Contact() {
   return (
@@ -11,14 +12,7 @@ export function Contact() {
           <div className="row_1">
             <p>Phone</p>
             <p className="text-sm flex items-center gap-2">
-              989301999{" "}
-              <span>
-                <img
-                  className="cursor-pointer h-[12px] font-semibold"
-                  src="/public/images/copy-icon.svg"
-                  alt=""
-                />
-              </span>
+              989301999 <Copy_clipboard_button value="989301999" />
             </p>
           </div>
         </div>
@@ -28,13 +22,7 @@ export function Contact() {
             <p>Email</p>
             <p className="text-sm flex items-center gap-2">
               jaime23koochoy@gmail.com{" "}
-              <span>
-                <img
-                  className="cursor-pointer h-[12px] font-semibold"
-                  src="/public/images/copy-icon.svg"
-                  alt=""
-                />
-              </span>
+              <Copy_clipboard_button value="jaime23koochoy@gmail.com" />
             </p>
           </div>
         </div>
