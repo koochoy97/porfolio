@@ -1,4 +1,5 @@
 import { Copy_clipboard_button } from "./Copy_clipboard_button";
+import { Link } from "react-scroll";
 
 interface Props {
   open: boolean;
