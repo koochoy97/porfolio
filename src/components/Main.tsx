@@ -59,7 +59,6 @@ export function Main() {
         send_action_to_parent={get_action_from_menu}
       />
       <Header click_handler={click_handler} />
-      {active_section}
       <div ref={about_me_ref} id="about_me_section">
         <About_me />
       </div>
