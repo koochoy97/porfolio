@@ -52,7 +52,7 @@ export function Main() {
   }, []);
 
   return (
-    <div className="bg-white w-11/12 z-50 rounded-md  border relative overflow-x-hidden h-full my-6 pb-20">
+    <div className="bg-white w-11/12 z-50 rounded-md  border relative overflow-x-hidden h-full my-6 pb-20 xl:w-3/4">
       <Mobile_nav_bar
         open={open_Mobile_menu}
         setOpen={setOpen_Mobile_menu}

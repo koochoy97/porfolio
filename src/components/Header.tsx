@@ -8,7 +8,7 @@ export function Header(props: Props) {
   };
 
   return (
-    <div className="bg-white p-8  border-b h-20 rounded-t-md flex items-center  justify-between mb-4">
+    <div className="bg-white p-8  border-b h-20 rounded-t-md flex items-center  justify-between mb-4 sticky top-0">
       <span className="text-xl font-['Raleway'] font-extrabold ">
         Jaime Koochoy
       </span>
