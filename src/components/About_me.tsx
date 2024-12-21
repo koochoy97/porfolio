@@ -14,16 +14,32 @@ export function About_me() {
       </div>
 
       <div className="content w-full">
-        <p className="text-xl font-['Raleway'] text-center w-full mt-10 mb-2">
+        <p className="text-xl font-['Raleway'] text-center w-full mt-10 mb-2 xl:text-left">
           PROYECTOS
         </p>
 
-        <Project_item
-          title="Restaurant POS"
-          description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
-          tech={["React", "Tailwind", "Python", "Supabase"]}
-          id={1}
-        />
+        <div className=" md:flex md:gap-4 md:flex-wrap">
+          <Project_item
+            title="Restaurant POS"
+            description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
+            tech={["React", "Tailwind", "Python", "Supabase"]}
+            id={1}
+          />
+
+          <Project_item
+            title="Restaurant POS"
+            description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
+            tech={["React", "Tailwind", "Python", "Supabase"]}
+            id={1}
+          />
+
+          <Project_item
+            title="Restaurant POS"
+            description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
+            tech={["React", "Tailwind", "Python", "Supabase"]}
+            id={1}
+          />
+        </div>
       </div>
     </div>
   );
