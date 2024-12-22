@@ -4,9 +4,11 @@ import { Project_item } from "./Project_item";
 export function About_me() {
   return (
     <div name="about_me" className=" p-8 flex items-center flex-col w-full">
-      <div className="header w-full">
-        <p className="text-xl font-['Raleway'] text-center w-full">SOBRE MI</p>
-        <p className="w-full text-center font-['Raleway'] text-sm leading-6">
+      <div className="header w-full ">
+        <p className="text-xl font-['Raleway'] text-center w-full lg:text-left">
+          SOBRE MI
+        </p>
+        <p className="w-full text-center font-['Raleway'] text-sm leading-6 lg:text-left">
           Me apasiona convertir ideas en proyectos funcionales y visualmente
           atractivos. Actualmente trabajo con React, y estoy siempre listo para
           aprender nuevas tecnologías y adaptarme a cualquier desafío.
@@ -14,11 +16,11 @@ export function About_me() {
       </div>
 
       <div className="content w-full">
-        <p className="text-xl font-['Raleway'] text-center w-full mt-10 mb-2 xl:text-left">
+        <p className="text-xl font-['Raleway'] text-center w-full mt-10 mb-2 lg:text-left">
           PROYECTOS
         </p>
 
-        <div className=" md:flex md:gap-4 md:flex-wrap">
+        <div className="flex flex-col gap-4 lg:flex-row lg:flex-wrap">
           <Project_item
             title="Restaurant POS"
             description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "

@@ -9,7 +9,7 @@ interface Props {
 
 export function Project_item(props: Props) {
   return (
-    <div className="bg-white w-full p-4 border rounded flex flex-col items-center mb-4 md:w-[300px]">
+    <div className="bg-white w-full p-4 border rounded flex flex-col items-center mb-4 lg:w-[300px]">
       <img src="/public/images/Rectangle.png" alt="" className="mb-2 w-full" />
       <p className="title text-lg font-['Raleway'] font-semibold text-left w-full uppercase">
         {props.title}

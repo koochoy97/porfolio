@@ -2,7 +2,7 @@ import { Copy_clipboard_button } from "./Copy_clipboard_button";
 
 export function Profile_desktop() {
   return (
-    <div className="bg-white z-50 rounded-md border my-6  hidden xl:flex xl:w-[275px] xl:mr-5 xl:flex-col h-[500px] ">
+    <div className="bg-white z-50 rounded-md border my-6 hidden lg:flex lg:w-[275px] lg:mr-5 lg:flex-col h-[500px] ">
       <div className="row_1 text-center bg-slate-600 rounded-t-md h-[60px] relative">
         <div className="bg-slate-300 rounded-full w-[80px] h-[80px] absolute bottom-[-50%] left-[50%] translate-x-[-50%]"></div>
       </div>
