@@ -9,6 +9,11 @@ export function Header(props: Props) {
     props.click_handler();
   };
 
+  const option_handler = (option: string) => {
+    console.log(option);
+    props.send_action_to_parent(option);
+  };
+
   return (
     <div className="bg-white p-8  border-b h-20 rounded-t-md flex items-center  justify-between mb-4 sticky top-0">
       <span className="text-xl font-['Raleway'] font-extrabold w-full">
@@ -21,7 +26,7 @@ export function Header(props: Props) {
           alt=""
         />
       </span>
-      <Desktop_nav_bar />
+      <Desktop_nav_bar get_option_selected={option_handler} />
     </div>
   );
 }

@@ -1,5 +1,11 @@
-export function Desktop_nav_bar() {
-  const handle_on_click = (element_clicked: string) => {};
+interface Props {
+  get_option_selected: (option: string) => void;
+}
+
+export function Desktop_nav_bar(props: Props) {
+  const handle_on_click = (element_clicked: string) => {
+    props.get_option_selected(element_clicked);
+  };
 
   return (
     <div className=" items-center w-full justify-end gap-6 hidden md:flex">

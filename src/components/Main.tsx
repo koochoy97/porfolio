@@ -18,18 +18,27 @@ export function Main() {
   };
 
   const get_action_from_menu = (e: any) => {
-    if (e === "contact") {
-      contact_ref.current?.scrollIntoView({ behavior: "smooth" });
-    }
     switch (e) {
       case "about_me":
-        about_me_ref.current?.scrollIntoView({ behavior: "smooth" });
+        about_me_ref.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "start",
+        });
         break;
       case "skills":
-        skills_ref.current?.scrollIntoView({ behavior: "smooth" });
+        skills_ref.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "start",
+        });
         break;
       case "contact":
-        contact_ref.current?.scrollIntoView({ behavior: "smooth" });
+        contact_ref.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "start",
+        });
         break;
     }
   };
@@ -58,7 +67,10 @@ export function Main() {
         setOpen={setOpen_Mobile_menu}
         send_action_to_parent={get_action_from_menu}
       />
-      <Header click_handler={click_handler} />
+      <Header
+        click_handler={click_handler}
+        send_action_to_parent={get_action_from_menu}
+      />
       <div ref={about_me_ref} id="about_me_section">
         <About_me />
       </div>

@@ -2,7 +2,7 @@ import { Copy_clipboard_button } from "./Copy_clipboard_button";
 
 export function Profile_desktop() {
   return (
-    <div className="bg-white z-50 rounded-md border my-6 hidden lg:flex lg:w-[275px] lg:mr-5 lg:flex-col h-[500px] ">
+    <div className="bg-white z-50 rounded-md border my-6 hidden lg:flex lg:w-[275px] lg:mr-5 lg:flex-col h-[500px] sticky top-6">
       <div className="row_1 text-center bg-slate-600 rounded-t-md h-[60px] relative">
         <div className="bg-slate-300 rounded-full w-[80px] h-[80px] absolute bottom-[-50%] left-[50%] translate-x-[-50%]"></div>
       </div>
@@ -13,8 +13,24 @@ export function Profile_desktop() {
       </div>
 
       <div className="row_3 text-center px-6 mt-4 flex gap-3 justify-center">
-        <div className="bg-[#F2F7FC] w-[45px] h-[45px] rounded-md"></div>
-        <div className="bg-[#F2F7FC] w-[45px] h-[45px] rounded-md"></div>
+        <a
+          className="bg-[#F2F7FC] w-[45px] h-[45px] rounded-md flex justify-center items-center"
+          href="https://linkedin.com/in/jaimekoochoy"
+          target="_blank"
+        >
+          <img src="/public/images/linkedin.png" alt="" className="w-[25px]" />
+        </a>
+        <a
+          className="bg-[#F2F7FC] w-[45px] h-[45px] rounded-md flex justify-center items-center"
+          href="https://github.com/koochoy97"
+          target="_blank"
+        >
+          <img
+            src="/public/images/github-logo.png"
+            alt=""
+            className="w-[25px]"
+          />
+        </a>
       </div>
 
       <div className="row_4 text-left mx-6 p-4 mt-4 bg-[#F2F5F9] rounded-md ">
