@@ -1,10 +1,9 @@
 import { Copy_clipboard_button } from "./Copy_clipboard_button";
-import { Link } from "react-scroll";
 
 interface Props {
   open: boolean;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  send_action_to_parent: () => void;
+  send_action_to_parent: (e: string) => void;
 }
 
 export function Mobile_nav_bar(props: Props) {

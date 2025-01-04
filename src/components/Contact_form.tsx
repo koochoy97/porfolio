@@ -37,9 +37,12 @@ export function Contact_form() {
       const result = await response;
       console.log("Datos enviados correctamente:", result);
       setLoader_on(false);
-      name_ref.current.value = "";
-      email_ref.current.value = "";
-      message_ref.current.value = "";
+
+      if (name_ref.current && email_ref.current && message_ref.current) {
+        name_ref.current.value = "";
+        email_ref.current.value = "";
+        message_ref.current.value = "";
+      }
 
       toast.success("¡Mensaje enviado correctamente!", {
         position: "bottom-center",
@@ -56,7 +59,7 @@ export function Contact_form() {
     }
   };
 
-  const handle_submit = (e) => {
+  const handle_submit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoader_on(true);
     const form_data = {

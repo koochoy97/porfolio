@@ -17,7 +17,7 @@ export function Main() {
     setOpen_Mobile_menu(true);
   };
 
-  const get_action_from_menu = (e: any) => {
+  const get_action_from_menu = (e: string) => {
     switch (e) {
       case "about_me":
         about_me_ref.current?.scrollIntoView({

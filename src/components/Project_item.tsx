@@ -1,5 +1,3 @@
-const techs = ["React", "Tailwind", "Python", "Supabase"];
-
 interface Props {
   title: string;
   description: string;

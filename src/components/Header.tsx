@@ -2,6 +2,7 @@ import { Desktop_nav_bar } from "./Desktop_nav_bar";
 
 interface Props {
   click_handler: () => void;
+  send_action_to_parent: (e: string) => void;
 }
 
 export function Header(props: Props) {

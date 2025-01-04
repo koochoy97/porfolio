@@ -1,7 +1,6 @@
 import { Skill_block } from "./Skill_block";
 import { useEffect, useState } from "react";
 
-type Techs_sorted = "none" | "az" | "za";
 export function Skills() {
   useEffect(() => {
     const fetchData = async () => {
@@ -21,6 +20,7 @@ export function Skills() {
 
   const [techs, setTechs] = useState([]);
   const [soft_skills, setSoft_skills] = useState([]);
+  /*
   const [techs_sorted, setTechs_sorted] = useState<Techs_sorted>("none");
 
   const handle_order = (array: string) => {
@@ -43,7 +43,7 @@ export function Skills() {
       console.log("Ordenando tecnologías");
     }
   };
-
+*/
   return (
     <div className="p-8 flex items-center mb-4 flex-col">
       <p className="text-xl font-['Raleway'] text-center w-full mb-2 lg:text-left">

@@ -1,7 +1,7 @@
 import { toast } from "react-toastify";
 
 interface Props {
-  value: string | number;
+  value: string;
 }
 
 export function Copy_clipboard_button(props: Props) {
