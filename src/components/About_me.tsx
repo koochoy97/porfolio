@@ -23,21 +23,14 @@ export function About_me() {
           <Project_item
             title="Restaurant POS"
             description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
-            tech={["React", "Tailwind", "Python", "Supabase"]}
-            img="/images/Login_project.png"
+            tech={["React", "Tailwind", "Supabase"]}
+            img="/images/restaurant_pos.png"
           />
 
           <Project_item
             title="Complete Login System"
             description="Sistema de inicio de sesión por correo y Google, restablecimiento de contraseña, almacenamiento seguro en Cloud Firestore y redirección de rutas para usuarios no autenticados"
             tech={["React", "Tailwind", "Firebase"]}
-            img="/images/Login_project.jpeg"
-          />
-
-          <Project_item
-            title="Restaurant POS"
-            description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
-            tech={["React", "Tailwind", "Python", "Supabase"]}
             img="/images/Login_project.png"
           />
         </div>
