@@ -1,7 +1,7 @@
 import { Header } from "./Header";
 import { About_me } from "./About_me";
 import { Mobile_nav_bar } from "./Mobile_nav_bar";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Skills } from "./Skills";
 import { Contact } from "./Contact";
 import { useRef } from "react";
