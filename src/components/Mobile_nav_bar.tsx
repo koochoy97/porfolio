@@ -29,7 +29,7 @@ export function Mobile_nav_bar(props: Props) {
           className="text-3xl font-bold absolute top-2 left-2 cursor-pointer"
           onClick={() => handle_on_click("close")}
         >
-          <img src="/public/images/hamburger-menu-grey.png" alt="" />
+          <img src="/images/hamburger-menu-grey.png" alt="" />
         </span>
         <div className="profile_container flex justify-start items-start w-full border px-10 py-4 gap-3">
           <div className="w-[60px] h-[60px] bg-slate-300"></div>

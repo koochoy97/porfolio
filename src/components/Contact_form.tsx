@@ -119,7 +119,7 @@ export function Contact_form() {
         disabled={loader_on}
       >
         {loader_on ? (
-          <img src="/public/images/loader.gif" className="w-[20px]" alt="" />
+          <img src="/images/loader.gif" className="w-[20px]" alt="" />
         ) : (
           "Enviar"
         )}

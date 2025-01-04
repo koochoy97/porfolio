@@ -18,18 +18,14 @@ export function Profile_desktop() {
           href="https://linkedin.com/in/jaimekoochoy"
           target="_blank"
         >
-          <img src="/public/images/linkedin.png" alt="" className="w-[25px]" />
+          <img src="/images/linkedin.png" alt="" className="w-[25px]" />
         </a>
         <a
           className="bg-[#F2F7FC] w-[45px] h-[45px] rounded-md flex justify-center items-center"
           href="https://github.com/koochoy97"
           target="_blank"
         >
-          <img
-            src="/public/images/github-logo.png"
-            alt=""
-            className="w-[25px]"
-          />
+          <img src="/images/github-logo.png" alt="" className="w-[25px]" />
         </a>
       </div>
 

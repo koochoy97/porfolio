@@ -4,7 +4,6 @@ interface Props {
   title: string;
   description: string;
   tech: string[];
-  id: number;
   img: string;
 }
 
@@ -29,7 +28,7 @@ export function Project_item(props: Props) {
         {props.tech?.map((tech) => (
           <div
             className="  text-[#57657A] text-xs flex items-center justify-center bg-[#FAFAFA] p-[2px] rounded-md border"
-            key={props.id}
+            key={tech}
           >
             {tech}
           </div>
