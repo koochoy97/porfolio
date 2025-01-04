@@ -19,7 +19,7 @@ export function Mobile_nav_bar(props: Props) {
         props.open
           ? " z-50 black-transparency-background"
           : "transparent-background z-[-1]"
-      } flex-col items-end absolute transition-display duration-[100ms] ease-in-out`}
+      } flex-col items-end fixed top-0 transition-display duration-[100ms] ease-in-out`}
     >
       <div
         className={`flex flex-col items-center justify-start  bg-white h-full w-11/12 rounded-r-md relative transition-all duration-300 ease-in-out

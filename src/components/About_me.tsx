@@ -26,13 +26,15 @@ export function About_me() {
             description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
             tech={["React", "Tailwind", "Python", "Supabase"]}
             id={1}
+            img="/public/images/Login_project.png"
           />
 
           <Project_item
-            title="Restaurant POS"
-            description="POS para restaurantes con carrito de compras y sistema de diseño de Layout para la gestión de las mesas "
-            tech={["React", "Tailwind", "Python", "Supabase"]}
+            title="Complete Login System"
+            description="Sistema de inicio de sesión por correo y Google, restablecimiento de contraseña, almacenamiento seguro en Cloud Firestore y redirección de rutas para usuarios no autenticados"
+            tech={["React", "Tailwind", "Firebase"]}
             id={1}
+            img="/public/images/Login_project.jpeg"
           />
 
           <Project_item
