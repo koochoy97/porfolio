@@ -11,7 +11,7 @@ export function Main() {
   const about_me_ref = useRef<HTMLDivElement>(null);
   const contact_ref = useRef<HTMLDivElement>(null);
   const skills_ref = useRef<HTMLDivElement>(null);
-  const [active_section, setActive_section] = useState("about_me");
+  /*const [active_section, setActive_section] = useState("about_me");*/
 
   const click_handler = () => {
     setOpen_Mobile_menu(true);
@@ -43,6 +43,7 @@ export function Main() {
     }
   };
 
+  /*
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       console.log(entries);
@@ -59,6 +60,8 @@ export function Main() {
       if (ref.current) observer.observe(ref.current);
     });
   }, []);
+
+  */
 
   return (
     <div className="bg-white w-11/12 z-50 rounded-md  border relative overflow-x-hidden h-full my-6 pb-20 xl:w-3/4 lg:w-[70%]">
